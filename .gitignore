@@ -1,0 +1,32 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Eclipse project files 
+.project
+.classpath
+.settings/
+
+# Build outputs 
+target/
+test-output/
+bin/
+out/
+build/
+
+# Java byproducts
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# Other IDEs
+.idea/
+*.iml
+.vscode/
+
+# Env / secrets 
+.env
+*.env
+*.key
+*.pem
